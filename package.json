@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "tests",
+  "name": "@vimlet/copy",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {},
   "dependencies": {
     "@vimlet/cli": "1.0.0",
