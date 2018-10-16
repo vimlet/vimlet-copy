@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var io = require("@vimlet/io");
 var path = require("path");
 var glob = require("glob");
