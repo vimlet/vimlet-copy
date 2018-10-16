@@ -1,8 +1,11 @@
 {
   "name": "@vimlet/copy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "src/index.js",
+  "bin": {
+    "vimlet-copy": "./src/index.js"
+  },
   "scripts": {},
   "dependencies": {
     "@vimlet/cli": "1.0.0",
