@@ -9,7 +9,7 @@ This is a tool that copy files.
 
 ## Installation
 
-npm install @vimlet/copy -g
+npm install @vimlet/copy
 
 ## Usage
 
