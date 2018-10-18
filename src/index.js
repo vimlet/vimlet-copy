@@ -16,11 +16,14 @@ module.exports.copy = function (include, output, options, callback) {
         fs.removeSync(output);
     }
     var totalFiles = 0;
-    var rootsArray = io.getFiles(include, options.exclude);
+    var rootsArray = io.getFiles(include, options);
     rootsArray.forEach(function (rootObject) {
         totalFiles += rootObject.files.length;
     });
-    var rootsArray = io.getFiles(include, options.exclude);
+    var rootsArray = io.getFiles(include, options);
+
+console.log(rootsArray);
+
     rootsArray.forEach(function (rootObject) {
         rootObject.files.forEach(function (relativePath) {
             fs.copy(path.join(rootObject.root, relativePath), path.join(output, relativePath), function (err) {
