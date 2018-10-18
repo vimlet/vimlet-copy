@@ -9,7 +9,6 @@
   "scripts": {},
   "dependencies": {
     "@vimlet/cli": "1.0.0",
-    "@vimlet/commons": "2.5.11",
     "@vimlet/io": "0.0.5",
     "fs-extra": "7.0.0",
     "mkdirp": "0.5.1",

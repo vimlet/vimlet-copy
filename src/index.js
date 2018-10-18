@@ -21,9 +21,6 @@ module.exports.copy = function (include, output, options, callback) {
         totalFiles += rootObject.files.length;
     });
     var rootsArray = io.getFiles(include, options);
-
-console.log(rootsArray);
-
     rootsArray.forEach(function (rootObject) {
         rootObject.files.forEach(function (relativePath) {
             fs.copy(path.join(rootObject.root, relativePath), path.join(output, relativePath), function (err) {
