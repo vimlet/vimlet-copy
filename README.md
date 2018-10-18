@@ -1,4 +1,4 @@
-# VimletCopy
+# Vimlet Copy
 
 This is a tool that copy files.
 
