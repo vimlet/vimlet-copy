@@ -1,5 +1,5 @@
 <p align='center'>
-<img src='https://vimlet.com/resources/img/copy-txt.png' title='Vimlet Cli' alt='Vimlet Copy'>
+<img src='https://vimlet.com/resources/img/copy-txt.png' title='Vimlet Copy' alt='Vimlet Copy'>
 </p>
 
 This is a tool that copy files.
