@@ -1,4 +1,6 @@
-# Vimlet Copy
+<p align='center'>
+<img src='https://vimlet.com/resources/img/copy-txt.png' title='Vimlet Cli' alt='Vimlet Copy'>
+</p>
 
 This is a tool that copy files.
 
@@ -42,3 +44,7 @@ npm install @vimlet/copy
 * `vimlet-copy -i include -o output -e exclude -c -w`
 
     Calls copy.watch
+
+
+## License
+Vimlet Copy is released under MIT License. See [LICENSE](https://github.com/vimlet/vimlet-copy/blob/master/LICENSE) for details.
