@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "bin": {
-    "vimlet-copy": "./src/index.js"
+    "vimlet-copy": "src/index.js"
   },
   "scripts": {},
   "dependencies": {
